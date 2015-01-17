@@ -1,6 +1,9 @@
 # IntelliJ IDEA
 .idea/*
 
+# Maven
+target/*
+
 *.class
 
 # Mobile Tools for Java (J2ME)

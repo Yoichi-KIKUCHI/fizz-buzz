@@ -1,3 +1,5 @@
+package com.yo1000.fizzbuzz;
+
 /**
  * Created by yoichi.kikuchi on 15/01/18.
  */

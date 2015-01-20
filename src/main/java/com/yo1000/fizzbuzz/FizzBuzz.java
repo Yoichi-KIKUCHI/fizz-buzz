@@ -16,15 +16,15 @@ public class FizzBuzz {
 
     protected String getMessage(int number) {
         if (number % 3 == 0 && number % 5 == 0) {
-            return "FizzBuzz";
+            return "ＦｉｚｚＢｕｚｚ";
         }
 
         if (number % 3 == 0) {
-            return "Fizz";
+            return "Ｆｉｚｚ";
         }
 
         if (number % 5 == 0) {
-            return "Buzz";
+            return "Ｂｕｚｚ";
         }
 
         StringBuilder builder = new StringBuilder();

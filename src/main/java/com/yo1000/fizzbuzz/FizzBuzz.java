@@ -27,6 +27,9 @@ public class FizzBuzz {
             return "Buzz";
         }
 
-        return String.valueOf(number);
+        StringBuilder builder = new StringBuilder();
+        for(char c : ((Integer) number).toString().toCharArray())
+            builder.append((char) ('０' + c - '0'));
+        return builder.toString();
     }
 }
